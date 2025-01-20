@@ -4,9 +4,6 @@ def solution(s):
     a=[]
     for c in s:
       a.append(c)
-    
-    if a[0] == ')':
-      return False
 
     else:
       count=0
